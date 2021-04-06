@@ -5,11 +5,30 @@ NIM : 1906227
 Nama : Lisa Amri Mubarokah
 NIM :1902033
 =================
-Apa yang baru?
-1.Item di klasifikasi menjadi senjata,normal,dan khusus
-2.untuk masuk ke membuka pintu dibutuhkan kunci yang merupakan item berkategori khusus
-3.class pintu merupakan subclass dari item
-4.menambahkan class senjata yang merupakan subclass dari item
-5.menambahka item lain seperti kapak(senjata)
-6.player memiliki daya serang
+Story line game default:
+Player masuk ke dalam sebuah ruangan dan didalam ruangan terdpat item roti,pintu dan NPC.
+Ketika ingin membuka sebuah pintupolayer harus mempunyai kunci. Kunci dipegang oleh NPC. Player ahrus meminta kunci ke NPC.
+Sebelum meminta kunci,player harus berkenalan dulu dengan NPC baru NPC akan memberikan kunci.
+
+
+Tambahan:
+Item di klasifikasi menjadi senjata,normal,dan khusus
+Menambahkan @override pada method prosesAksi di class Pintu
+
+
+Kelas tambahan:
+Senjata
+
+Modifikasi kelas inheritance:
+Superclass = Item
+SubClass = Senjata yang didalamnya terdapat objek Kapak
+
+Modifikasi/tambahan Class Player:
+Player memiliki daya serang
+
+
+Memperbaiki:
+class Pintu merupakan subClass/turunan dari Item
+class NPC merupakan subClass/turunan dari item
+
 
